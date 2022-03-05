@@ -5,7 +5,7 @@
 INT APIENTRY DllMain(HMODULE hDLL, DWORD Reason, LPVOID Reserved)
 {
     //FILE *file;
-    //fopen_s(&file, "C:/Users/nitay/Desktop/DLL-Injection-Autoclicker/checking.txt", "a+");
+    //fopen_s(&file, "", "a+");
     INPUT ip;
     UINT uSent;
     ip.type = INPUT_KEYBOARD;
